@@ -1,0 +1,412 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header{
+    position: sticky;
+    top:0px;
+    z-index: 99;
+    width: 100%;
+    height: 35px;
+    background-color: black;
+}
+.header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+.header li{
+    margin-top: 5px;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+}
+.news{
+position: relative;
+top: 45px;
+}
+.login a{
+    color: orangered;
+    margin-left: 700px;
+}
+.logined a{
+    color: orangered;
+    margin-left: 700px;
+}
+.registe a{
+    color: orangered;
+}
+.undo a{
+    color: orangered;
+}
+body{
+    position: relative;
+}
+.logo #logo{
+    width: 55px;
+    height: 55px;
+    /* margin-left: 130px; */
+    margin-top: -16px;
+
+}
+.h1{
+    font-size: 50px;
+    text-align: center;
+    font-style:italic;
+    color: #f656ab;
+}
+.word{
+	width:300px;
+	margin-top: 20px;
+}
+.search{
+	margin-bottom:10px;
+}
+.d-flex{
+    margin-top: 20px;
+}
+.d-flex .form-control{
+    height: 40px;
+}
+.btn-danger{
+    margin-top: 30px;
+    height: 40px;
+    width: 45%;
+}
+hr{
+    margin-top: 1px;
+}
+
+.picshow{
+	margin-top:50px;
+	background-size:cover;
+	background-position: center center;
+    margin: 45px auto;
+}
+.carousel{
+	width:87.3%;
+	margin-left:7%;
+	padding-top:2.3%;
+	margin-bottom:30px;
+	
+}
+.carousel-item img{
+    height: 500px;
+    margin-top:20px;
+}
+.nav-tabs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: -10px;
+}
+.nav-item .nav-link{
+    /* color: skyblue; */
+    font-size: 20px;
+}
+/* .nav-item:hover .nav-link{
+    color: pink;
+
+} */
+.nav-item .pic{
+    width: 30px;
+    height: 30px;
+}
+.slide img{
+    height: 400px;
+}
+.intro{
+    /* height: 80px; */
+    margin-top: -20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.intro h1{
+    font-size: 40px;
+    letter-spacing: 3px;
+    margin-left: 0px!important;
+    text-align: center;
+    margin-right: 0px!important;
+    color: #ff1493;
+}
+.intro hr{
+margin-top: 6%;
+    height: 2px;
+}
+.intro .eng h5{
+    text-align: center;
+    color: rgb(165, 163, 163);
+}
+.shows{
+    /* position: relative; */
+    background-color: #f1fbff;
+}
+
+/* .shows .mouse{
+    border: 1px solid rgb(248, 164, 178);
+} */
+.shows .line .obj{
+    margin-bottom: 20px;
+   
+}
+.card-body{
+    border-top: 1px solid black;
+    border-left: 0ch;
+    border-right: 0ch;
+    border-bottom: 0ch;
+}
+.card-body img{
+    width: 300px;
+    height: 360px;
+}
+.card .py-2{
+    color: red;
+    font-size: 20px;
+}
+.footer{
+    background-color: rgb(186, 183, 183);
+    margin-top: 35px;
+}
+.footer .up{
+    width: 100%;
+    background-color:  rgb(252, 144, 162);
+}
+.footer .up ul{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    list-style:none;
+}
+.footer ul a{
+    border-right: 2px solid #fff;
+    padding: 1px 10px;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+.footer .down{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.footer .down .hhh{
+    width: fit-content;
+    margin: 10px 0;
+}
+.footer .hhh div{
+    width: fit-content;
+}
+.tip{
+    /* display: none; */
+    position: fixed;
+    width: 45px;
+    height: 100%;
+    background-color:skyblue;
+    z-index: 66;
+    right:0px ;
+    top: 0px;
+   /* border-radius: 10px; */
+}
+.imgs{
+    margin-top: 350px;
+}
+.imgs img{
+    margin-top: 30px;
+    width: 45px;
+    height: 45px;
+}
+.imgs .goBack{
+    display: none;
+}
+.tipname .name{
+    display: none;
+    position: fixed;
+    z-index: 66;
+    width: 100px;
+    height: 45px;
+    right:45px ;
+    background-color:  #f1f8ff;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+.tipname .name1{
+    top: 385px;
+}
+.tipname .name2{
+    top: 455px;
+}
+.tipname .name3{
+    top: 530px;
+}
+.tipname .name4{
+    top: 605px;
+}
+.tipname .name5{
+    top: 675px;
+}
+.tipname .name6{
+    top: 745px;
+}
+#houtai{
+	display:block;
+}
+@media screen and (max-width:1860px) {
+    .picshow{
+    	background:none !important;
+    }
+    .carousel{
+		width:100%;
+		margin-left:0%;	
+    }
+}
+@media screen and (max-width:1670px) {
+    .login a{
+    	color: orangered;
+    	margin-left: 150px;
+	}
+	.logined a{
+    	color: orangered;
+    	margin-left: 150px;
+	}
+}
+@media screen and (max-width:1390px) {
+    .h1{
+        font-size:55px;
+    }
+    .row h1{
+        font-size:36px;
+    }
+    .intro hr{
+        margin-top: 25px;
+    }
+    .footer{
+        display: none;
+    }
+    .word{
+    	display:none;
+    }
+    .nav .nav-item{
+    	width:20%;
+    }
+    
+}
+@media screen and (max-width:1244px) {
+    .h1{
+        font-size:45px;
+    }
+    .row h1{
+        font-size:25px;
+    }
+    .intro hr{
+        margin-top: 15px;
+    }
+     .login a{
+    	color: orangered;
+    	margin-left: 50px;
+	}
+	.logined a{
+    	color: orangered;
+    	margin-left: 50px;
+	}
+}
+@media screen and (max-width:1060px) {
+    .h1{
+        font-size:36px;
+    }
+    .header ul{
+    	margin-left: 0px;
+    }
+    .header a{
+    	font-size:15px;
+    	margin-left: 15px;
+    }
+}
+@media screen and (max-width:950px) {
+    .tro h1{
+    	font-size:20px;
+    }
+}
+@media screen and (max-width:950px) {
+    .search input{
+    	width:360px;
+    }
+}
+@media screen and (max-width:830px) {
+    .header a{
+    	font-size:10px;
+    	margin-left: 10px;
+    }   
+}
+@media screen and (max-width:770px) {
+    .news .h1{
+    	display:none;
+    }
+    .header a{
+    	font-size:10px;
+    	margin-left: 10px;
+    }
+    .news #logo{
+    	margin-top:10px;
+    }
+}
+@media screen and (max-width:710px) {
+    .tro h1{
+    	font-size:30px;
+    }
+}
+@media screen and (max-width:660px) {
+    .header a{
+    	font-size:0px;
+    	margin-left: 10px;
+    }
+     .login a{
+     	font-size:18px !important;
+    	color: orangered;
+    	margin-left: 50px;
+	}
+	.logined a{
+		font-size:18px !important;
+    	color: orangered;
+    	margin-left: 50px;
+	}
+	.registe a{
+		font-size:18px !important;
+    	color: orangered;
+    	margin-left: 150px;
+	}
+	.undo a{
+		font-size:18px !important;
+    	color: orangered;
+    	margin-left: 150px;
+	}  
+}
+@media screen and (max-width:590px) {
+    .news .logo{
+    	display:none;
+    }
+    .login a{
+     	font-size:15px !important;
+    	color: orangered;
+    	margin-left: 30px;
+	}
+	.logined a{
+		font-size:15px !important;
+    	color: orangered;
+    	margin-left: 30px;
+	}
+	.registe a{
+		font-size:15px !important;
+    	color: orangered;
+    	margin-left: 80px;
+	}
+	.undo a{
+		font-size:15px !important;
+    	color: orangered;
+    	margin-left: 80px;
+	}  
+}

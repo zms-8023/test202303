@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header{
+    position: sticky;
+    top:0px;
+    z-index: 99;
+    width: 100%;
+    height: 35px;
+    background-color: black;
+}
+.header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+.header li{
+    margin-top: 5px;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+}
+.news{
+position: relative;
+top: 45px;
+}
+.login a{
+    color: orangered;
+    margin-left: 700px;
+}
+.logined a{
+    color: orangered;
+    margin-left: 700px;
+}
+.registe a{
+    color: orangered;
+}
+.undo a{
+    color: orangered;
+}
+body{
+    position: relative;
+}
+.logo #logo{
+    width: 55px;
+    height: 55px;
+    /* margin-left: 130px; */
+    margin-top: -16px;
+
+}
+.h1{
+    font-size: 50px;
+    text-align: center;
+    font-style:italic;
+    color: #f656ab;
+}
+.word{
+	width:300px;
+	margin-left:-70px;
+	margin-top: 20px;
+}
+.search{
+	margin-bottom:10px;
+}
+.d-flex{
+    margin-top: 20px;
+}
+.d-flex .form-control{
+    height: 40px;
+}
+.btn-danger{
+    margin-top: 30px;
+    height: 40px;
+    width: 45%;
+}
+.top{
+	border-bottom:1px solid #ccc;
+}
+.footmark-title{
+    margin-top: 30px;
+    color: rgba(89, 177, 240, 0.849);
+    font-size: 19px;
+    font-weight: 550;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.082);
+    padding-bottom: 10px;
+}
+.footmark-title em{
+    border-bottom: 3px solid rgba(89, 177, 240, 0.849);
+    padding-bottom: 10px;
+}
+.footmark-title .delete{
+    float: right;
+}
+.footmark-title .delete a{
+    color: rgba(89, 177, 240, 0.849);
+    font-size: 17px;
+    text-decoration: none;
+}
+.footmark-title  img{
+	height:30px;
+	width:30px;
+}
+.footmark-title .back{
+	margin-left:20px;
+	text-decoration:none;
+	color: rgba(89, 177, 240, 0.849);
+}
+.footmark-title .delete a:hover{
+    color: rgba(89, 177, 240, 0.849);
+    cursor: pointer;
+}
+.item{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.082);
+}
+.item .date{
+    margin-top: 10px;
+}
+.item .date a{
+    float: right;
+    color: #999;
+    font-size: 16px;
+    text-decoration: none;
+}
+.item .date a:hover{
+    color: rgba(89, 177, 240, 0.849);
+    cursor: pointer;
+}
+.mark{
+	height:800px;
+	overflow:scroll;
+}
+.card{
+    padding: 0;
+    height: 300px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    
+}
+.pic{
+    height: 70%;
+}
+.card .old{
+    font-size: 12px;
+}
+.card i{
+    display: none;
+    float: right;
+}
+.card:hover i{
+    display: inline-block;
+    cursor: pointer;
+}
+.card i:hover{
+    color: rgba(89, 177, 240, 0.849);
+}
+.footer{
+    background-color: rgb(186, 183, 183);
+    margin-top: 45px;
+}
+.footer .up{
+    width: 100%;
+    background-color:  rgb(252, 144, 162);
+}
+.footer .up ul{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    list-style:none;
+}
+.footer ul a{
+    border-right: 2px solid #fff;
+    padding: 1px 10px;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+.footer .down{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.footer .down .hhh{
+    width: fit-content;
+    margin: 10px 0;
+}
+.footer .hhh div{
+    width: fit-content;
+}
+
+.background-1{
+    display: none;
+    margin-top: 50px;
+    color: pink;
+    font-size: 30px;
+}
+.background-1 .nothing-1 img{
+    margin-left: 100px;
+    width: 300px;
+    height: 300px;
+}
+.background-1 .nothing-1 a{
+    color: pink;
+    text-decoration: none;
+}
+.background-1 .nothing-1 a:hover{
+    color: rgba(89, 177, 240, 0.849);
+}
+@media screen and (max-width:1730px) {
+    .login a{
+    	color: orangered;
+    	margin-left: 350px;
+	}
+	.logined a{
+    	color: orangered;
+    	margin-left: 35e0px;
+	}
+}
+@media screen and (max-width:1400px) {
+    .login a{
+    	color: orangered;
+    	margin-left: 100px;
+	}
+	.logined a{
+    	color: orangered;
+    	margin-left: 100px;
+	}
+	.h1{
+    font-size: 40px;
+}
+.word{
+	width:250px;
+	margin-left:-70px;
+	margin-top: 20px;
+}
+}
+@media screen and (max-width:1200px) {
+    .word{
+    display:none;
+    }
+    .h1{
+    font-size: 35px;
+}
+ .header a{
+    	font-size:15px;
+    	margin-left: 15px;
+    }
+.footer{
+	display:none;
+}
+}
+@media screen and (max-width:1000px) {
+.d-flex{
+    margin-top: 10px;
+}
+.d-flex .form-control{
+    height: 40px;
+}
+.btn-danger{
+    margin-top: 10px;
+    height: 40px;
+    width: 45%;
+}
+.header a{
+    	font-size:10px;
+    	margin-left: 10px;
+    }
+}
+@media screen and (max-width:768px) {
+.d-flex{
+    margin-top: 0px;
+}
+.d-flex .form-control{
+    height: 40px;
+}
+.btn-danger{
+    margin-top: 0px;
+    height: 40px;
+    width: 45%;
+}
+.logo span{
+	display:none;
+}
+}
+@media screen and (max-width:700px) {
+	.header a{
+    	font-size:0px;
+    	margin-left: 10px;
+    }
+    .login a{
+     	font-size:15px !important;
+    	color: orangered;
+    	margin-left: 30px;
+	}
+	.logined a{
+		font-size:15px !important;
+    	color: orangered;
+    	margin-left: 30px;
+	}
+	.registe a{
+		font-size:15px !important;
+    	color: orangered;
+    	margin-left: 80px;
+	}
+	.undo a{
+		font-size:15px !important;
+    	color: orangered;
+    	margin-left: 80px;
+	} 
+	.detail{
+    	margin-left: 0px;
+    } 
+}

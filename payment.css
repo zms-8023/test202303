@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box{
+    height:800px;
+    width: 100%;
+    text-align: center;
+    font-size: 29px;
+    margin-top: 20px;
+    background-image: url("imag/background2.jpg");
+    background-size: 100% 100%;
+    padding-left: 500px;
+}
+.box .pic{
+    margin-top: 50px;
+}
+.box .pic p{
+    margin-top: 200px;
+}
+.box section{
+    height: 130px;
+    line-height: 130px;
+    text-align: center;
+}
+.box section .time{
+    font-size: 30px;
+    color: #d81e06;
+}
+.box .footer .rightback{
+    
+    margin-top: 40px;
+    background-color: #fff;
+    padding: 9px 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid skyblue;
+}
+
+@media screen and (max-width:767px){
+    .box{
+        height: 450px;
+    }
+    .box section{
+        font-size: 15px;
+    }
+    .box .footer .rightback{
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>商品详情页面</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="jquery.min.js"></script>
+    <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="shopping.css" type="text/css">
+    <!-- <script src="bootstrap/js/bootstrap.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="shopping.js"></script>
+</head>
+<body>
+  <div class="header">
+    <ul>
+      <li><a href="">嗨，欢迎来到校园二手购物</a></li>
+       <li><a href="">签到有礼</a></li>
+       <li><a href="">退换无忧</a></li>
+       <li><a href="">我的特卖</a></li>
+       <li><a href="">网站导航</a></li>
+       <li><a href="">网站无障碍</a></li>
+       <li><a href="">会员俱乐部</a></li>
+       <li class="logined"><a href="person.html">钮钴禄·甄嬛</a></li>
+       <li class="undo"><a href="login.html">退出登录</a></li>
+   </ul>
+</div>
+<div class="body1 container-fluid">
+        <div class="row head">
+            <div class="col-lg-4 col-md-5 col-sm-5">
+                <img class="logo" src="imag/logo.jpg">
+                <span class="h1 title"><strong>校园二手购物</strong><img class="words" src="img/word.jpg"></span>
+            </div>
+            <div class="col-lg-8 col-md-7 col-sm-7">
+                <form class="d-flex text-center search" role="search">
+                    <input class="form-control me-2" type="search" placeholder="请输入关键词搜索" aria-label="Search">
+                   <button class="btn btn-info" type="submit">Search</button>
+                  </form>
+            </div>
+        </div>
+        <div class="row top">
+        	<div class="col-lg-6 col-md-6 col-sm-5">
+        	<a href="index.html" class="back"><img class="same" alt="" src="img/index.png"> 返回首页</a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-5 spic">
+            <img src="imag/store.png">
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-5 spic">
+            <img class="same" src="img/totouch.png">
+            <span>联系卖家</span>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-5 spic">
+            <img class="same" src="img/collect2.png">
+            <span>收藏店铺</span>
+            </div>
+            </div>
+        </div>
+        		<div class="row detail">
+            	<div class="col-lg-6 shadow p-3 mb-5 bg-body rounded" style="margin-top:30px">
+                <img src="img/129.jpg" class="img-thumbnail shopping" alt="">
+                <img class="word" src="imag/word.jpg"> 
+            	</div>
+            	<div class="col-lg-6 intro shadow p-3 mb-5 bg-body rounded" style="margin-top:30px">
+                <p class="h4">A字裙</p>
+                <p class="h5">2022夏季新款A字裙显瘦中长裙甜美半身裙气质优雅淑女风裙子</p>
+                <div class="badge  text-white price" style="background-image:url(imag/price.png);background-size:100% 100% ; background-attachment: fixed ">￥99.00&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp心动不如行动吧！</div>               
+                <div class="com" style="margin-top:30px">
+                    <img class="face" src="img/01.jpg">
+                    <p class="h6">钮钴禄·甄嬛</p>
+                    <img class="gif" src="imag/move.gif">
+                </div>
+                <div class="number" style="margin-top:30px">
+                    <p class="text-success h5">商品数量：2</p>
+                </div>
+                <ul class="counter" style="margin-top:30px">
+                    <p class="text-success h5">数量:</p>
+                    <li id="minus"><input type="button" class="sub" value="-"/></li>
+                    <li id="countnum">1</li>
+                    <li id="plus"><input type="button" class="add" value="+"/></li>
+                </ul>
+                <div class=" d-grid gap-2 d-md-flex justify-content-md-start buy" style="margin-top:30px">
+                    <a href=""><button class="btn btn-info me-md-2" type="button">加入购物袋</button></a>
+                    <button class="buynow btn btn-info" type="button">立马抢购</button>
+                </div> 
+                <div class="display" style="margin-top:30px">
+                	<img class="display" src="imag/display.png">
+                </div>               
+            </div>
+        </div>
+    </div>
+    <div class="footer row">
+      <div class="up">
+        <ul class="nav-footer col-sm-12 col-md-12 hidden-xs">
+          <li class="firstli"><a href="#">关于我们</a></li>
+          <li><a href="#">开放平台</a></li>
+          <li><a href="#">网站合作</a></li>
+          <li><a href="#">隐私权政策</a></li>
+          <li><a href="#">服务条款</a></li>
+          <li><a href="#">知识产权</a></li>
+          <li><a href="#">平台规则</a></li>
+          <li class="lastli"><a href="#">规则意见征集</a></li>
+      </ul>
+      </div>
+      <div class="down">
+         <div class="hhh">
+          <div class="more1 hidden-xs">经营许可证：100-200-300</div>
+          <div class="more2  hidden-xs">违法和不良信息举报电话：4006789888 </div>
+          <div class=" more3 hidden-xs">2021-2022校园二手平台版权所有</div>
+         </div>
+      </div>
+  </div>
+        <div class="tip hidden-sx">
+      <div class="imgs">
+        <a href="car.html"><img src="img/shopbag.jpg" alt=""></a>
+        <a href="say.html"><img src="img/touch.png" alt=""></a>  
+        <a href="person.html"><img src="img/own.png" alt="" class="person"></a>
+        <a href="myorder.html"><img src="img/order.jpg" alt="" class="order"></a>
+     	  <a href="footmark.html"><img src="img/footmark.png" alt="" class="order"></a>
+        <a><img src="img/back.png" alt="" class="goBack"></a>
+      </div>
+    </div>
+    <div class="tipname">
+      <div class="name1 name">购物袋</div>
+      <div class="name2 name">聊天</div>
+      <div class="name3 name">个人中心</div>
+      <div class="name4 name">我的订单</div>
+      <div class="name5 name">我的足迹</div>
+      <div class="name6 name">返回顶部</div>
+    </div>
+        <div class="pay shadow">
+    <div class="pay_head">
+      <h1>order</h1>
+    </div>
+    <div class="pay_body shadow-sm">
+      <div class="img0">
+        <img src="img/129.jpg" alt="">
+      </div>
+      <div class="intro">
+        <p class="price">￥:99.00</p>
+        <p class="name">A字裙</p>
+        <p class="info">2022夏季新款A字裙显瘦中长裙甜美半身裙气质优雅淑女风裙子</p>
+      </div>
+    </div>
+    <div class="btns">
+      <a href=""><button class="sure">确认购买</button></a>
+      <button class="cancle">取消</button>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="jquery.min.js"></script>
+    <script src="index.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+<body>
+	<div class="header">
+	   	<ul>
+     		<li><a href="">嗨，欢迎来到校园二手购物</a></li>
+      		<li><a href="">签到有礼</a></li>
+      		<li><a href="">退换无忧</a></li>
+      		<li><a href="">我的特卖</a></li>
+      		<li><a href="">网站导航</a></li>
+      		<li><a href="">网站无障碍</a></li>
+      		<li><a href="">会员俱乐部</a></li>
+      		<li class="logined"><a href="person.html">钮钴禄·甄嬛</a></li>
+      		<li class="undo"><a href="login.html">退出登录</a></li>
+    	</ul>
+  </div>
+  <div class="container">
+      <div class="news col-md-12">
+        <div class="row">
+          <div class="logo col-lg-5 col-md-6 col-sm-2">
+            <img src="img\logo.jpg" alt="" id="logo">
+            <span class="h1">校园二手购物<img class="word" src="img\word.jpg"></span> 
+          </div>
+          <div class="search col-lg-7 col-md-6 col-sm-10">
+            <form class="d-flex text-center" role="search" action=""  meta="post" id="search">
+            <input name="action" type="hidden" value="findbysearch">
+              <input class="form-control me-2" type="search" placeholder="请输入关键词搜索" aria-label="Search" name="findintro">
+             <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      <hr>
+      <!-- 导航栏 -->
+      <ul class="nav nav-tabs">
+      	<li class="nav-item tui">
+          <a class="nav-link active "  href=""><img src="img/push.png" class="pic">推荐</a>
+        </li> 
+      <li class="nav-item hou">
+          <a class="nav-link link-info " href=""><img src="img/clothe.png" class="pic">服饰</a>
+        </li>
+        <li class="nav-item hou">
+          <a class="nav-link link-info" href=""><img src="img/shoes.png" class="pic">鞋靴</a>
+        </li>
+        <li class="nav-item hou">
+          <a class="nav-link link-info " href=""><img src="img/elegoods.png" class="pic">电子</a>
+        </li>
+        <li class="nav-item hou">
+          <a class="nav-link link-info " href=""><img src="img/life.png" class="pic">生活</a>
+        </li>
+        <li class="nav-item hou">
+          <a class="nav-link link-info " href=""><img src="img/car.png" class="pic">车品</a>
+        </li>
+        <li class="nav-item hou">
+          <a class="nav-link link-info " href=""><img src="img/beauty.png" class="pic">美妆</a>
+        </li>
+        <li class="nav-item hou">
+          <a class="nav-link link-info " href=""><img src="img/eat.jpg" class="pic">食品</a>
+        </li>
+        <li class="nav-item hou">
+          <a class="nav-link link-info " href=""><img src="img/study.png" class="pic">学习</a>
+        </li>
+        <li class="nav-item hou">
+          <a class="nav-link link-info " href=""><img src="img/sport.png" class="pic">体育</a>
+        </li>
+      </ul>
+      </div>
+      </div>
+      <!-- 轮播图 -->
+      <div class="container-fluid picshow" style="background:url(img/background.jpg) no-repeat">
+       	<div class="container">
+      <div class="col-md-12">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/obj1.jpg" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="img/obj2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/obj4.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      </div>
+      <div class="container">
+      <div class="intro row">
+        <div class="col"><hr></div>
+        <div class="tro col-md-2">
+          <h1>低价超值</h1>
+        </div>
+        <div class="col"><hr></div>
+        <div class="eng">
+          <h5>
+            Low Price And High Value 
+          </h5>
+        </div>
+      </div>
+      <!-- start -->
+      <div class="row shows">
+        <div class="line col-md-12" id="houtai">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-3 obj">
+                <div class="card text-center">
+                    <div class="card-body" >
+                        <a href="shopping.html"><img src="img/129.jpg" alt="" class="img-fluid"></a>
+                        <h3 class="card-title py-2">出售价：￥99.00</h3>
+                        <p class="card-text">2022夏季新款A字裙显瘦中长裙甜美半身裙气质优雅淑女风裙子</p>
+                        <p class="socials"> <i class="bi bi-twitter"></i>
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-linkedin"></i>
+                            <i class="bi bi-instagram"></i>
+                        </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 obj">
+                  <div class="card text-center">
+                      <div class="card-body" >
+                          <a href="shopping.html"><img src="img/129.jpg" alt="" class="img-fluid"></a>
+                          <h3 class="card-title py-2">出售价：￥99.00</h3>
+                          <p class="card-text">2022夏季新款A字裙显瘦中长裙甜美半身裙气质优雅淑女风裙子</p>
+                          <p class="socials"> <i class="bi bi-twitter"></i>
+                              <i class="bi bi-facebook"></i>
+                              <i class="bi bi-linkedin"></i>
+                              <i class="bi bi-instagram"></i>
+                          </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-3 obj">
+                    <div class="card text-center">
+                        <div class="card-body" >
+                            <a href="shopping.html"><img src="img/129.jpg" alt="" class="img-fluid"></a>
+                            <h3 class="card-title py-2">出售价：￥99.00</h3>
+                            <p class="card-text">2022夏季新款A字裙显瘦中长裙甜美半身裙气质优雅淑女风裙子</p>
+                            <p class="socials"> <i class="bi bi-twitter"></i>
+                                <i class="bi bi-facebook"></i>
+                                <i class="bi bi-linkedin"></i>
+                                <i class="bi bi-instagram"></i>
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 obj">
+                      <div class="card text-center">
+                          <div class="card-body" >
+                              <a href="shopping.html"><img src="img/129.jpg" alt="" class="img-fluid"></a>
+                              <h3 class="card-title py-2">出售价：￥99.00</h3>
+                              <p class="card-text">2022夏季新款A字裙显瘦中长裙甜美半身裙气质优雅淑女风裙子</p>
+                              <p class="socials"> <i class="bi bi-twitter"></i>
+                                  <i class="bi bi-facebook"></i>
+                                  <i class="bi bi-linkedin"></i>
+                                  <i class="bi bi-instagram"></i>
+                              </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6 col-lg-3 obj">
+                        <div class="card text-center">
+                            <div class="card-body" >
+                                <a href="shopping.html"><img src="img/129.jpg" alt="" class="img-fluid"></a>
+                                <h3 class="card-title py-2">出售价：￥99.00</h3>
+                                <p class="card-text">2022夏季新款A字裙显瘦中长裙甜美半身裙气质优雅淑女风裙子</p>
+                                <p class="socials"> <i class="bi bi-twitter"></i>
+                                    <i class="bi bi-facebook"></i>
+                                    <i class="bi bi-linkedin"></i>
+                                    <i class="bi bi-instagram"></i>
+                                </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 obj">
+                          <div class="card text-center">
+                              <div class="card-body" >
+                                  <a href="shopping.html"><img src="img/129.jpg" alt="" class="img-fluid"></a>
+                                  <h3 class="card-title py-2">出售价：￥99.00</h3>
+                                  <p class="card-text">2022夏季新款A字裙显瘦中长裙甜美半身裙气质优雅淑女风裙子</p>
+                                  <p class="socials"> <i class="bi bi-twitter"></i>
+                                      <i class="bi bi-facebook"></i>
+                                      <i class="bi bi-linkedin"></i>
+                                      <i class="bi bi-instagram"></i>
+                                  </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-12 col-md-6 col-lg-3 obj">
+                            <div class="card text-center">
+                                <div class="card-body" >
+                                    <a href="shopping.html"><img src="img/129.jpg" alt="" class="img-fluid"></a>
+                                    <h3 class="card-title py-2">出售价：￥99.00</h3>
+                                    <p class="card-text">2022夏季新款A字裙显瘦中长裙甜美半身裙气质优雅淑女风裙子</p>
+                                    <p class="socials"> <i class="bi bi-twitter"></i>
+                                        <i class="bi bi-facebook"></i>
+                                        <i class="bi bi-linkedin"></i>
+                                        <i class="bi bi-instagram"></i>
+                                    </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3 obj">
+                              <div class="card text-center">
+                                  <div class="card-body" >
+                                      <a href="shopping.html"><img src="img/129.jpg" alt="" class="img-fluid"></a>
+                                      <h3 class="card-title py-2">出售价：￥99.00</h3>
+                                      <p class="card-text">2022夏季新款A字裙显瘦中长裙甜美半身裙气质优雅淑女风裙子</p>
+                                      <p class="socials"> <i class="bi bi-twitter"></i>
+                                          <i class="bi bi-facebook"></i>
+                                          <i class="bi bi-linkedin"></i>
+                                          <i class="bi bi-instagram"></i>
+                                      </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-12 col-md-6 col-lg-3 obj">
+                                <div class="card text-center">
+                                    <div class="card-body" >
+                                        <a href="shopping.html"><img src="img/129.jpg" alt="" class="img-fluid"></a>
+                                        <h3 class="card-title py-2">出售价：￥99.00</h3>
+                                        <p class="card-text">2022夏季新款A字裙显瘦中长裙甜美半身裙气质优雅淑女风裙子</p>
+                                        <p class="socials"> <i class="bi bi-twitter"></i>
+                                            <i class="bi bi-facebook"></i>
+                                            <i class="bi bi-linkedin"></i>
+                                            <i class="bi bi-instagram"></i>
+                                        </p>
+                                    </div>
+                                  </div>
+                                </div>
+              </div>
+            </div>   
+    	    </div>
+        </div>
+    	</div>
+   <!-- end -->
+    <!-- 侧边栏 -->
+    <div class="tip hidden-sx">
+      <div class="imgs">
+        <a href="car.html"><img src="img/shopbag.jpg" alt=""></a>
+        <a href="say.html"><img src="img/touch.png" alt=""></a>
+   
+        <a href="person.html"><img src="img/own.png" alt="" class="person"></a>
+        <a href="myorder.html"><img src="img/order.jpg" alt="" class="order"></a>
+     	  <a href="footmark.html"><img src="img/footmark.png" alt="" class="order"></a>
+        <a><img src="img/back.png" alt="" class="goBack"></a>
+      </div>
+    </div>
+    <div class="tipname">
+      <div class="name1 name">购物袋</div>
+      <div class="name2 name">聊天</div>
+      <div class="name3 name">个人中心</div>
+      <div class="name4 name">我的订单</div>
+      <div class="name5 name">我的足迹</div>
+      <div class="name6 name">返回顶部</div>
+    </div>
+    </div>
+  </div>
+  <div class="footer row">
+    <div class="up">
+      <ul class="nav-footer col-sm-12 col-md-12 hidden-xs">
+        <li class="firstli"><a href="#">关于我们</a></li>
+        <li><a href="#">开放平台</a></li>
+        <li><a href="#">网站合作</a></li>
+        <li><a href="#">隐私权政策</a></li>
+        <li><a href="#">服务条款</a></li>
+        <li><a href="#">知识产权</a></li>
+        <li><a href="#">平台规则</a></li>
+        <li class="lastli"><a href="#">规则意见征集</a></li>
+    </ul>
+    </div>
+    <div class="down">
+       <div class="hhh">
+        <div class="more1 hidden-xs">经营许可证：100-200-300</div>
+        <div class="more2  hidden-xs">违法和不良信息举报电话：4006789888 </div>
+        <div class=" more3 hidden-xs">2021-2022校园二手平台版权所有</div>
+       </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,626 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header0{
+    position: sticky;
+    top:0px;
+    z-index: 99;
+    width: 100%;
+    height: 35px;
+    background-color: black;
+}
+.header0 ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+.header0 li{
+    margin-top: 5px;
+}
+.header0 a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+}
+.news{
+position: relative;
+top: 45px;
+}
+.login a{
+    color: orangered;
+    margin-left: 700px;
+}
+.logined a{
+    color: orangered;
+    margin-left: 700px;
+}
+.registe a{
+    color: orangered;
+}
+.undo a{
+    color: orangered;
+}
+.container{
+position: relative;
+top: 35px;
+}
+body{
+    background-color: #f1fbff;
+}
+.header1{
+    margin-bottom: -16px;
+    padding-bottom: 16px;
+    background-color: white;
+}
+.h1 .logo{
+    margin-top: 0px;
+    width: 13%;
+    margin-left: 30px;
+}
+.h1{
+	margin-top:20px;
+	font-size:55px;
+	color:#ff1493;
+	padding-left:20px;
+}
+.info00{
+    padding-left: 120px;
+    margin-top: 35px;
+}
+.info00 img{
+    width: 60px;
+    height: 60px;
+}
+.d-flex{
+    padding-top: 40px;
+   padding-right:40px;
+}
+.d-flex .form-control{
+    height: 53px;
+}
+.btn-info{
+    margin-top: 40px;
+    height: 53px;
+}
+.body2{
+    margin-top: -51px;
+    border-left:1px solid skyblue;
+    border-right:1px solid skyblue;
+}
+.nav{
+    padding-top: 100px;
+    margin-left: -1ch;
+    height: 920px;
+    background-color: white;
+    /* border-right:1px solid skyblue; */
+}
+.nav li{
+    width: 100%;
+    height: 50px;
+}
+.nav li:hover{
+    background-color: skyblue;
+}
+.nav a{
+    font-size: 25px;
+     display: block;
+     height: 50px;
+     width: 100%;
+     color: skyblue;
+    text-decoration: none;
+    padding-left: 50px;
+    letter-spacing: 3px;
+}
+.nav a img{
+    width: 30px;
+    height: 30px;
+}
+.nav a:hover{
+    color: white;
+    text-decoration: none;
+    background-color: skyblue;
+}
+ul{
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.main{
+	
+    border-left:1px solid skyblue;
+    margin-left: -12px;
+    padding-right: 0px;
+    background-color: white;
+    /* padding-left: 0; */
+}
+.header{
+    background-color: white;
+    height: 120px;
+    border-bottom: 1px solid skyblue;
+}
+.toux img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+.info p{
+    font-size: 20px;
+    margin-top: 66px;
+    color: black;
+}
+.nav1{
+    height: 45px;
+    border-bottom: 1px solid skyblue;
+    background-color: white;
+}
+.nav1 p{
+    width: 130px;
+    height: 45px;
+    font-size: 25px;
+    color: skyblue;
+    background-color: white;
+   margin-left: 145px;
+   border-bottom:1px solid skyblue;
+}
+.nav1 .current{
+    color: white;
+    background-color: skyblue;
+}
+.item{
+    display: none;
+}
+.object{
+    position: relative;
+    display: block;
+    height: 756px;
+    overflow: scroll;
+}
+.btns button{
+    border: 1px solid red;
+    background-color: white;
+    color: red;
+    margin-top: 15px;
+    height: 35px;
+    width: 100px;
+    border-radius: 7px
+}
+.object .addobj{
+    display: none;
+    position: absolute;
+    z-index: 999;
+    margin-left: 20%;
+    width: 45%;
+    height: auto;
+    background-color:rgb(213, 210, 208);
+    border: 1px solid red;
+    border-radius: 10px;
+}
+.object form{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 20px;
+    color: white;
+}
+.object form input{
+	width:80%;
+}
+.object form label{
+    margin-top: 10px;
+}
+.object form #formFileSm{
+    font-size: 20px;
+    color: white;
+    width: 80%;
+}
+.object form .btn{
+    width: 150%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: white;
+    margin-left: 10%;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.btns button:hover{
+    background-color: skyblue;
+    color: white;
+}
+.object img{
+    width: 99%;
+    height: 299px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.now{
+    border: 1px solid #ff1493;
+}
+.lins button{
+    display: none;
+    position: absolute;
+    width: 90%;
+    height: 40px;
+    z-index: 666;
+    top: 293px;
+    left: 11px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+}
+.lins div{
+    position: relative;
+    margin-top: 20px;
+    border: 1px solid white;
+    border-top: none;
+    background-color: #f1fbff;
+}
+.attention{
+    background-color: white;
+}
+.peo{
+    height: 130px;
+    border-bottom:1px solid skyblue;
+    background-color: #f1fbff;
+}
+.peo img{
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+.peo p{
+    font-size: 20px;
+    margin-top: 25px;
+}
+.peo .cancle{
+    height: 35px;
+    width: 80px;
+    background-color: red;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    padding-top: 5px;
+    margin-top: 45px;
+}
+.own{
+    position: relative;
+}
+.own label{
+    font-size: 25px;
+    color:black;
+    margin-bottom: 20px;
+}
+.own .tx{
+    padding-top: 20px;
+    font-size: 25px;
+    color:black;
+}
+.own img{
+    width: 100px;
+    height: 100px;
+}
+.own .bt{
+    width: 300%;
+    height: 50px;
+    background-color: #f1fbff;
+    color: rgb(220, 30, 30);
+    border-radius: 7px;
+    font-size: 25px;
+    border: 1px solid rgb(220, 30, 30);
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 10px;
+}
+.setbox{
+    display: none;
+    position: absolute;
+    z-index: 999;
+    margin-left: 10%;
+    margin-top: -620px;
+    width: 60%;
+    height: auto;
+    background-color:skyblue;
+    border: 1px solid skyblue;
+    border-radius: 10px;
+}
+.setbox form{
+    margin-top: 20px;
+    
+}
+.setbox form label{
+    font-size: 20px;
+    color: white;
+    margin-left: 10%;
+}
+.setbox input{
+    height: 30px;
+    width: 95%;
+}
+.setbox .btn{
+    margin-left: 5%;
+    padding-bottom: 40px;
+}
+.own .ok{
+    width: 150px;
+}
+.own .no{
+    width: 150px;
+}
+.footer{
+    background-color: rgb(186, 183, 183);
+    margin-top: 75px;
+}
+.footer .up{
+    width: 100%;
+    background-color:  rgb(252, 144, 162);
+}
+.footer .up ul{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    list-style:none;
+}
+.footer ul a{
+    border-right: 2px solid #fff;
+    padding: 1px 10px;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+.footer .down{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.footer .down .hhh{
+    width: fit-content;
+    margin: 10px 0;
+}
+.footer .hhh div{
+    width: fit-content;
+}
+@media screen and (max-width:1700px) {
+   .login a{
+    color: orangered;
+    margin-left: 500px;
+}
+.logined a{
+    color: orangered;
+    margin-left: 500px;
+}
+}
+@media screen and (max-width:1500px) {
+	.header0 a{
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+    font-size:15px;
+}
+   .login a{
+    color: orangered;
+    margin-left: 500px;
+}
+.logined a{
+    color: orangered;
+    margin-left: 500px;
+}
+.registe a{
+    color: orangered;
+}
+.undo a{
+    color: orangered;
+}
+}
+@media screen and (max-width:1300px) {
+   .login a{
+    color: orangered;
+    margin-left: 100px;
+}
+.logined a{
+    color: orangered;
+    margin-left: 100px;
+}
+}
+@media screen and (max-width:1200px) {
+  .h1{
+	font-size:45px;
+	}
+	.nav1 p{
+	margin-left: 100px;
+	font-size:20px;
+	 width: 120px;
+    height: 45px;
+	}
+	.footer{
+	display:none;}
+	
+}
+@media screen and (max-width:1000px) {
+  .h1{
+	font-size:30px;
+	}
+	.nav1 p{
+	margin-left: 33px;
+	font-size:20px;
+	 width: 120px;
+    height: 45px;
+	}
+	.d-flex{
+    padding-top: 20px;
+}
+.d-flex .form-control{
+    height: 43px;
+}
+.btn-info{
+    margin-top: 20px;
+    height: 43px;
+}
+	.nav a{
+    padding-left: 0px;
+}
+.header{
+    height: 80px;
+}
+.toux img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+.info p{
+    font-size: 15px;
+    margin-top: 44px;
+    color: black;
+}
+.header0 a{
+    text-decoration: none;
+    margin-left: 10px;
+    font-size:15px;
+}
+.peo{
+    height: 90px;}
+.peo img{
+    margin-top: 10px;
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+}
+.peo p{
+    font-size: 15px;
+    margin-top: 15px;
+}
+.peo .cancle{
+    height: 30px;
+    width: 80px;
+    background-color: red;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    padding-top: 5px;
+    margin-top: 30px;
+}
+}
+
+@media screen and (max-width:768px) {
+  .h1{
+	display:none;
+	}
+	.nav1 p{
+	margin-left: 10px;
+	font-size:20px;
+	 width: 110px;
+    height: 45px;
+    padding-top:7px;
+	}
+	.d-flex{
+    padding-top: 20px;
+}
+.d-flex .form-control{
+    height: 43px;
+}
+.btn-info{
+    margin-top: 20px;
+    height: 43px;
+}
+	.nav a{
+    padding-left: 0px;
+}
+.header{
+    height: 50px;
+}
+.toux img{
+    width: 46px;
+    height: 46px;
+    border-radius: 23px;
+    margin-top: 2px;
+}
+.info p{
+    font-size: 15px;
+    margin-top: 22px;
+    color: black;
+}
+.name{
+	display:none;
+}
+.header0 a{
+    text-decoration: none;
+    margin-left: 10px;
+    font-size:10px;
+}
+.nav a{
+    font-size:15px;
+}
+}
+@media screen and (max-width:660px) {
+    .header0 a{
+    	font-size:0px;
+    	margin-left: 10px;
+    }
+     .login a{
+     	font-size:18px !important;
+    	color: orangered;
+    	margin-left: 50px;
+	}
+	.logined a{
+		font-size:18px !important;
+    	color: orangered;
+    	margin-left: 50px;
+	}
+	.registe a{
+		font-size:18px !important;
+    	color: orangered;
+    	margin-left: 150px;
+	}
+	.undo a{
+		font-size:18px !important;
+    	color: orangered;
+    	margin-left: 150px;
+	} 
+	.nav1 p{
+	margin-left: 5px;
+	font-size:15px;
+	 width: 100px;
+    height: 45px;
+    padding-top:10px;
+	} 
+	.info p{
+	padding-right:0px;
+	padding-left:0px;
+    font-size: 12px;
+    margin-top: 20px;
+    color: black;
+}
+.peo{
+    height: 150px;}
+.peo img{
+	padding-right:0px;
+	padding-left:0px;
+    margin-top: 0px;
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+}
+.peo p{
+    font-size: 10px;
+    margin-top: 0px;
+}
+.peo .cancle{
+	padding-right:0px;
+	padding-left:0px;
+	padding-right:0px;
+    height: 25px;
+    width: 60px;
+    background-color: red;
+    text-align: center;
+    color: white;
+    border-radius: 3px;
+    padding-top: 2px;
+    margin-top: 0px;
+    font-size:15px;
+}
+}

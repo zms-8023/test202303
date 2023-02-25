@@ -1,0 +1,496 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+.header{
+    position: absolute;
+    top:0px;
+    z-index: 99;
+    width: 100%;
+    height: 35px;
+    background-color: black;
+}
+.header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+.header li{
+    margin-top: 5px;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+}
+.login a{
+    color: orangered;
+    margin-left: 700px;
+}
+.logined a{
+    color: orangered;
+    margin-left: 700px;
+}
+.registe a{
+    color: orangered;
+}
+.undo a{
+    color: orangered;
+}
+body{
+	background-color: #f1fbff;
+    position: relative;
+}
+.container{
+position: relative;
+top: 35px;
+}
+.header1{
+    margin-bottom: -16px;
+    padding-bottom: 16px;
+    background-color: white;
+}
+.logo img{
+    margin-top: 10px;
+    width: 100%;
+    margin-left: 30px;
+}
+.h1{
+	margin-top:20px;
+	font-size:50px;
+	color:#ff1493;
+	padding-left:20px;
+}
+.info00{
+    padding-left: 120px;
+    margin-top: 35px;
+}
+.info00 img{
+    width: 60px;
+    height: 60px;
+}
+.d-flex{
+    padding-top: 40px;
+   padding-right:40px;
+}
+.d-flex .form-control{
+    height: 53px;
+}
+.btn-info{
+    margin-top: 40px;
+    height: 53px;
+}
+.nav{
+    padding-top: 100px;
+    margin-left: -1ch;
+    height: 800px;
+    background-color:#f5f5f5;
+}
+.nav li{
+    width: 100%;
+    height: 50px;
+}
+.nav li:hover{
+    background-color: skyblue;
+}
+.nav a{
+    font-size: 25px;
+     display: block;
+     height: 50px;
+     width: 100%;
+     color: skyblue;
+    text-decoration: none;
+    padding-left: 50px;
+    letter-spacing: 3px;
+}
+.nav a img{
+    width: 30px;
+    height: 30px;
+}
+.nav a:hover{
+    color: white;
+    text-decoration: none;
+    background-color: skyblue;
+}
+.nav ul{
+	 width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.left{
+	padding-right:0px;
+}
+.right{
+	padding-left:0px;
+}
+.top{
+    border: 1px solid skyblue;
+    border:none;
+}
+.top h5{
+	
+	width:100%;
+	text-align:center;
+}
+.top img{
+	width:60px;
+	height:30px;
+	margin-top:-10px;
+}
+#box{
+	height:82%;
+    border:1px solid skyblue;
+    border-left:none;
+	border-right:none;
+}
+.myul{
+	margin-left:47%;
+}
+#box img{
+	width:50px;
+	height:50px;
+	border-radius:25px;
+}
+.peoul div{
+    display: flex;
+	height:40px;
+	margin-top:20px;
+}
+.myul div{
+	display:flex;
+	justify-content:flex-end;
+	margin-top:20px;
+}
+.myul a{
+	background-color:skyblue;
+	border-radius:10px;
+	height:40px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:7px;
+	margin-top:5px;
+	margin-right:5px;
+    width: fit-content;
+}
+.peoul p{
+	background-color:skyblue;
+	border-radius:10px;
+	height:40px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:7px;
+	margin-top:5px;
+	margin-left:5px;
+	color:white;
+    width: fit-content;
+}
+.bottom{
+	background-color:white;
+}
+.bottom .input{
+	background-color:white;
+	height:75px;
+	width:100%;
+	margin-right:3px;
+	border:none;
+	outline:none;
+}
+.bottom .send{
+	margin-left:91%;
+	font-size:20px;
+	width:80px;
+	color:white;
+	background: skyblue;
+	border-radius:10px;
+	border:none;
+}
+.footer{
+    background-color: rgb(186, 183, 183);
+    margin-top: 35px;
+}
+.footer .up{
+    width: 100%;
+    background-color:  rgb(252, 144, 162);
+}
+.footer .up ul{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    list-style:none;
+}
+.footer ul a{
+    border-right: 2px solid #fff;
+    padding: 1px 10px;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+.footer .down{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.footer .down .hhh{
+    width: fit-content;
+    margin: 10px 0;
+}
+.footer .hhh div{
+    width: fit-content;
+}
+.tip{
+    /* display: none; */
+    position: fixed;
+    width: 45px;
+    height: 100%;
+    background-color:skyblue;
+    z-index: 66;
+    right:0px ;
+    top: 0px;
+   /* border-radius: 10px; */
+}
+.imgs{
+    margin-top: 350px;
+}
+.imgs img{
+    margin-top: 30px;
+    width: 45px;
+    height: 45px;
+}
+.imgs .goBack{
+    display: none;
+}
+.tipname .name{
+    display: none;
+    position: fixed;
+    z-index: 66;
+    width: 100px;
+    height: 45px;
+    right:45px ;
+    background-color:  #f1f8ff;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+.tipname .name1{
+    top: 385px;
+}
+.tipname .name2{
+    top: 455px;
+}
+.tipname .name3{
+    top: 530px;
+}
+.tipname .name4{
+    top: 605px;
+}
+.tipname .name5{
+    top: 675px;
+}
+.tipname .name6{
+    top: 745px;
+}
+@media screen and (max-width:1700px) {
+   .login a{
+    color: orangered;
+    margin-left: 500px;
+}
+.logined a{
+    color: orangered;
+    margin-left: 500px;
+}
+}
+@media screen and (max-width:1500px) {
+	.header a{
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+    font-size:15px;
+}
+   .login a{
+    color: orangered;
+    margin-left: 500px;
+}
+.logined a{
+    color: orangered;
+    margin-left: 500px;
+}
+.registe a{
+    color: orangered;
+}
+.undo a{
+    color: orangered;
+}
+}
+@media screen and (max-width:1340px) {
+   .login a{
+    color: orangered;
+    margin-left: 100px;
+}
+.logined a{
+    color: orangered;
+    margin-left: 100px;
+}
+.footer{
+	display:none;
+}
+}
+@media screen and (max-width:1000px) {
+   .h1{
+	margin-top:25px;
+	font-size:40px;
+	color:#ff1493;
+	padding-left:20px;
+}
+.d-flex{
+    padding-top: 30px;
+   padding-right:30px;
+}
+.d-flex .form-control{
+    height: 43px;
+}
+.btn-info{
+    margin-top: 30px;
+    height: 43px;
+}
+.header a{
+    text-decoration: none;
+    margin-left: 10px;
+    font-size:10px;
+}
+  .login a{
+    color: orangered;
+    margin-left: 100px;
+}
+.logined a{
+    color: orangered;
+    margin-left: 100px;
+}
+.registe a{
+    color: orangered;
+}
+.undo a{
+    color: orangered;
+}
+.logo img{
+    margin-top: 30px;
+    width: 100%;
+    margin-left: 30px;
+}
+.nav a{
+    font-size: 20px;
+     display: block;
+     height: 40px;
+     width: 100%;
+     color: skyblue;
+    text-decoration: none;
+    padding-left: 20px;
+    letter-spacing: 1px;
+}
+.nav a img{
+    width: 25px;
+    height: 25px;
+}
+}
+@media screen and (max-width:768px) {
+	.header a{
+	 margin-left: 5px;
+    font-size:10px;
+	}
+	.login a{
+    color: orangered;
+    margin-left: 50px;
+}
+.logined a{
+    color: orangered;
+    margin-left: 50px;
+}
+.registe a{
+    color: orangered;
+}
+.undo a{
+    color: orangered;
+}
+ .h1{
+	display:none;
+}
+.d-flex{
+    padding-top: 35px;
+   padding-right:25px;
+}
+.d-flex .form-control{
+    height: 40px;
+}
+.btn-info{
+    margin-top: 35px;
+    height: 40px;
+}
+.nav a{
+    font-size: 15px;
+     display: block;
+     height: 40px;
+     width: 100%;
+     color: skyblue;
+    text-decoration: none;
+    padding-left: 0px;
+    letter-spacing: 1px;
+}
+.nav a img{
+    width: 22px;
+    height: 22px;
+}
+}
+
+@media screen and (max-width:670px) {
+    .header a{
+    	font-size:0px;
+    	margin-left: 10px;
+    }
+     .login a{
+     	font-size:18px !important;
+    	color: orangered;
+    	margin-left: 50px;
+	}
+	.logined a{
+		font-size:18px !important;
+    	color: orangered;
+    	margin-left: 50px;
+	}
+	.registe a{
+		font-size:18px !important;
+    	color: orangered;
+    	margin-left: 150px;
+	}
+	.undo a{
+		font-size:18px !important;
+    	color: orangered;
+    	margin-left: 150px;
+	} 
+}
+@media screen and (max-width:576px) {
+	.logo img{
+	display:none;
+	}
+	.login a{
+     	font-size:15px !important;
+    	color: orangered;
+    	margin-left: 30px;
+	}
+	.logined a{
+		font-size:15px !important;
+    	color: orangered;
+    	margin-left: 30px;
+	}
+	.registe a{
+		font-size:15px !important;
+    	color: orangered;
+    	margin-left: 80px;
+	}
+	.undo a{
+		font-size:15px !important;
+    	color: orangered;
+    	margin-left: 80px;
+	}  	
+}
